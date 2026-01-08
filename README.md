@@ -1,2 +1,2 @@
 # Java-Practicals
-ava practical programs using Eclipse
+available practical programs using Eclipse
