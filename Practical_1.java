@@ -1,3 +1,20 @@
+//     Create a class for an online bookstore inventory system featuring
+//     attributes for title, author, price, ISBN and current stock level. the
+//        program should be able to:
+
+//     a.Present all book's information in a clear, user-friendly format:
+//     i. Reduce its price by a specified percentage when a promotional
+//     discount is applied.
+//     ii. Increase its stock count when new copies arrive.
+//     iii. Determine whether the book is available for purchase based
+//     on stock.
+
+//     b.Instantiate at least two distinct book examples (for instance, A
+//     popular novel and a specialized textbook) and demonstrate each
+//     of these capabilities for both instances.
+
+
+
 package com;
 
 class BookStore {
@@ -69,3 +86,4 @@ public class Practical_1 {
         System.out.println("Textbook Available : " + textbook.isAvailable());
     }
 }
+
