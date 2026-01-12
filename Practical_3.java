@@ -1,3 +1,13 @@
+// Create a class for an employee payroll system using the concept of method overloading to manage multiple salary computation scenarios, including:
+// a. employeeID
+// b. hours_worked and rate
+// c. ID with bonus
+// d. annual_salary
+// e. with_overtime
+// f. with_deductions
+// g. with_bonus and deductions
+
+
 package com;
 
 class EmployeePayroll
@@ -55,3 +65,4 @@ public class Practical_3
         System.out.println("Salary (Bonus & Deductions): " + emp.calculateSalary(30000, 5000, 2000));
     }
 }
+
