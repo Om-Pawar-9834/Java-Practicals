@@ -1,3 +1,10 @@
+// Design and implement a Java program using an abstract class to model a bank account system. 
+// Create an abstract class BankAccount with abstract methods deposit() and withdraw(). 
+// Implement these methods in two derived classes: SavingsAccount, which enforces a minimum 
+// balance of ₹1000, and CurrentAccount, which allows an overdraft limit of ₹5000.
+// Demonstrate the working of the system by performing deposit and withdrawal transactions and displaying the final account balances.
+
+
 package com;
 abstract class BankAccount
 {
@@ -92,3 +99,4 @@ public class Practical_4
         ca.displayBalance();
     }
 }
+
